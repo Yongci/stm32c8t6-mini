@@ -1,0 +1,28 @@
+** Drc report for stm32c8t6-mini.kicad_pcb **
+** Created on 2026-07-31T11:23:20 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 3 DRC violations **
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1750 mm)
+    Local override; error (excluded)
+    @(113.9755 mm, 85.3700 mm): Pad A4 [VBUS] of P1 on F.Cu
+    @(113.9755 mm, 84.5950 mm): Pad A1 [GND] of P1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1750 mm)
+    Local override; error (excluded)
+    @(113.9755 mm, 90.2700 mm): Pad B4 [VBUS] of P1 on F.Cu
+    @(113.9755 mm, 91.0450 mm): Pad B1 [GND] of P1 on F.Cu
+[text_thickness]: 文本线宽超出范围 (TrueType 字体字符的笔画线宽不足)
+    Rule: <电路板配置> 中的 "丝印文本线宽" 约束; warning (excluded)
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
