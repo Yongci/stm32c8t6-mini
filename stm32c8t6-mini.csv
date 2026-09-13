@@ -13,7 +13,7 @@
 12;"F1";"Fuse_0805_2012Metric";1;"2A(10V)";;;
 13;"J1";"PinHeader_1x07_P2.54mm_Vertical";1;"Conn_01x07_Pin";;;
 14;"J2, J3";"PinHeader_1x18_P2.54mm_Vertical";2;"Conn_01x18_Pin";;;
-15;"P1";"TYPE-C-Receptacle-2.0";1;"USB";;;
+15;"J4";"USB_C_Receptacle_HRO_TYPE-C-31-M-12";1;"USB_C_Receptacle_USB2.0_16P";;;
 16;"R1, R2";"R_0402_1005Metric";2;"5.1k(10%)";;;
 17;"R3, R4";"R_0402_1005Metric";2;"10k(10%)";;;
 18;"R5, R7, R8, R9";"R_0402_1005Metric";4;"1k(10%)";;;
