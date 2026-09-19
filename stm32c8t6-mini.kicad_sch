@@ -9,7 +9,7 @@
 		(date "2026-09-13")
 		(rev "v1.2")
 		(company "Yongci")
-		(comment 1 "zhuyongci@github.com")
+		(comment 1 "zhuyongci@hotmail.com")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x07_Pin"
