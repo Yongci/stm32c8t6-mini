@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.5"
     },
-    "CreationDate": "2026-09-13T10:50:35+08:00"
+    "CreationDate": "2026-09-20T16:01:36+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "stm32c8t6-mini",
       "GUID": "73746d33-3263-4387-9436-2d6d696e692e",
-      "Revision": "rev?"
+      "Revision": "v1.3"
     },
     "Size": {
       "X": 48.05,

@@ -1,4 +1,4 @@
-## Footprint report - date 2026-09-13T10:51:21
+## Footprint report - date 2026-09-20T16:02:21
 ## Printed by KiCad version 10.0.5
 ## Unit = mm, Angle = deg.
 
@@ -7,6 +7,27 @@ $BeginDESCRIPTION
 $BOARD
 upper_left_corner 106.030000 75.500000
 $EndBOARD
+
+$MODULE BT1
+reference BT1
+value MS621FE,5.5mAh,3.3V
+footprint Battery:BatteryHolder_Seiko_MS621F
+attribut smd
+position 126.281898 90.000000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position  0.000000  0.750000 size  2.000000  0.800000 orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.000000 -0.750000 size  2.000000  0.800000 orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE BT1
 
 $MODULE C1
 reference C1
@@ -115,27 +136,6 @@ $EndMODULE C5
 
 $MODULE C6
 reference C6
-value 0.22F(3.3V)
-footprint Battery:BatteryHolder_Seiko_MS621F
-attribut smd
-position 126.281898 90.000000  orientation 180.00
-layer back
-$PAD "1"
-Shape Rect Layer back
-position  0.000000  0.750000 size  2.000000  0.800000 orientation 180.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Rect Layer back
-position  0.000000 -0.750000 size  2.000000  0.800000 orientation 180.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE C6
-
-$MODULE C7
-reference C7
 value 0.1uF(50V1%)
 footprint Capacitor_SMD:C_0402_1005Metric
 attribut smd
@@ -153,10 +153,10 @@ position  0.480000  0.000000 size  0.560000  0.620000 orientation 180.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE C7
+$EndMODULE C6
 
-$MODULE C8
-reference C8
+$MODULE C7
+reference C7
 value 0.1uF(50V1%)
 footprint Capacitor_SMD:C_0402_1005Metric
 attribut smd
@@ -174,10 +174,10 @@ position  0.480000  0.000000 size  0.560000  0.620000 orientation 270.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE C8
+$EndMODULE C7
 
-$MODULE C9
-reference C9
+$MODULE C8
+reference C8
 value 0.1uF(50V1%)
 footprint Capacitor_SMD:C_0402_1005Metric
 attribut smd
@@ -195,10 +195,10 @@ position  0.480000  0.000000 size  0.560000  0.620000 orientation 180.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE C9
+$EndMODULE C8
 
-$MODULE C10
-reference C10
+$MODULE C9
+reference C9
 value 0.1uF(50V1%)
 footprint Capacitor_SMD:C_0402_1005Metric
 attribut smd
@@ -216,10 +216,10 @@ position  0.480000  0.000000 size  0.560000  0.620000 orientation 180.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE C10
+$EndMODULE C9
 
-$MODULE C11
-reference C11
+$MODULE C10
+reference C10
 value 10pF(1%)
 footprint Capacitor_SMD:C_0402_1005Metric
 attribut smd
@@ -237,10 +237,10 @@ position  0.480000  0.000000 size  0.560000  0.620000 orientation 90.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE C11
+$EndMODULE C10
 
-$MODULE C12
-reference C12
+$MODULE C11
+reference C11
 value 10pF(1%)
 footprint Capacitor_SMD:C_0402_1005Metric
 attribut smd
@@ -258,10 +258,10 @@ position  0.480000  0.000000 size  0.560000  0.620000 orientation 270.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE C12
+$EndMODULE C11
 
-$MODULE C13
-reference C13
+$MODULE C12
+reference C12
 value 0.1uF
 footprint Capacitor_SMD:C_0402_1005Metric
 attribut smd
@@ -279,24 +279,24 @@ position  0.480000  0.000000 size  0.560000  0.620000 orientation 90.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE C13
+$EndMODULE C12
 
 $MODULE D1
 reference D1
-value 1N5817
-footprint Diode_SMD:D_SOD-123
+value 1SS367
+footprint Diode_SMD:D_SOD-323
 attribut smd
-position 121.000000 89.500000  orientation -90.00
+position 121.000000 90.000000  orientation -90.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
-position -1.650000  0.000000 size  0.900000  1.200000 orientation 270.00
+position -1.050000  0.000000 size  0.600000  0.450000 orientation 270.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
 Shape Roundrect Layer front
-position  1.650000  0.000000 size  0.900000  1.200000 orientation 270.00
+position  1.050000  0.000000 size  0.600000  0.450000 orientation 270.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -838,7 +838,7 @@ reference R1
 value 5.1k(10%)
 footprint Resistor_SMD:R_0402_1005Metric
 attribut smd
-position 112.500000 82.000000  orientation 0.00
+position 113.500000 82.000000  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -859,7 +859,7 @@ reference R2
 value 5.1k(10%)
 footprint Resistor_SMD:R_0402_1005Metric
 attribut smd
-position 107.990000 82.000000  orientation 180.00
+position 109.000000 82.000000  orientation 180.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -1024,20 +1024,20 @@ $EndMODULE R9
 
 $MODULE R10
 reference R10
-value 620(1%0.8W)
-footprint Resistor_SMD:R_0805_2012Metric
+value 620R(1%0.1W)
+footprint Resistor_SMD:R_0603_1608Metric
 attribut smd
-position 123.500000 90.000000  orientation 90.00
+position 123.000000 90.000000  orientation 90.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
-position -0.912500  0.000000 size  1.025000  1.400000 orientation 90.00
+position -0.825000  0.000000 size  0.800000  0.950000 orientation 90.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
 Shape Roundrect Layer front
-position  0.912500  0.000000 size  1.025000  1.400000 orientation 90.00
+position  0.825000  0.000000 size  0.800000  0.950000 orientation 90.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD

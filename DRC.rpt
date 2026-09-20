@@ -1,8 +1,10 @@
 ** Drc report for stm32c8t6-mini.kicad_pcb **
-** Created on 2026-09-13T10:50:21 **
-** Report includes: Errors, Warnings **
+** Created on 2026-09-20T16:02:54 **
+** Report includes: Errors, Warnings, Exclusions **
 
-** Found 0 DRC violations **
+** Found 1 DRC violations **
+[text_thickness]: 文本线宽超出范围 (TrueType 字体字符的笔画线宽不足)
+    Rule: <电路板配置> 中的 "丝印文本线宽" 约束; warning (excluded)
 
 ** Found 0 unconnected pads **
 

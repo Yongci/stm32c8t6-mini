@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STM32C8T6-Mini")
-		(date "2026-09-13")
-		(rev "v1.2")
+		(date "2026-09-20")
+		(rev "v1.3")
 		(company "Yongci")
 		(comment 1 "zhuyongci@hotmail.com")
 	)
@@ -1938,6 +1938,230 @@
 						)
 					)
 					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9382,7 +9606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a60798f-896d-4246-9a30-e6575cd10538")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 85.09 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9446,7 +9670,7 @@
 		(instances
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10017,7 +10241,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1SS367"
 			(at 152.4 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +10252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 154.94 29.845 0)
 			(hide yes)
 			(show_name no)
@@ -10039,7 +10263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/29822/TOSHIBA/1SS367/495/2/1SS367.html"
 			(at 154.94 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10050,7 +10274,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "10V 100mA Fast Diode, SOD-323"
 			(at 154.94 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10188,7 +10412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a5a6ffa-ad22-457d-9849-d2db50c9d421")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 122.428 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10250,7 +10474,7 @@
 		(instances
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10854,7 +11078,7 @@
 				)
 			)
 		)
-		(property "Value" "620(1%0.8W)"
+		(property "Value" "620R(1%0.1W)"
 			(at 163.83 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10864,7 +11088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -10923,7 +11147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a628e4e-a8e4-433d-bdd5-efcb157fdc60")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 200.66 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10987,86 +11211,7 @@
 		(instances
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 162.56 35.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60752716-11e8-4dd9-8b5d-6bc699cf5750")
-		(property "Reference" "C6"
-			(at 159.512 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.22F(3.3V)"
-			(at 167.386 39.116 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
-			(at 158.75 36.5252 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 162.56 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "975b5b69-1164-4c59-847b-99fcee860ff2")
-		)
-		(pin "1"
-			(uuid "3a2080e1-606a-4102-9bfe-55d7c108c7bb")
-		)
-		(instances
-			(project "stm32c8t6-mini"
-				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11243,7 +11388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "706b37b3-19e5-4734-91ba-06040f00c992")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 183.134 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11307,7 +11452,7 @@
 		(instances
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11625,6 +11770,118 @@
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 161.29 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80f11d61-f1be-4e24-95ea-19bd36857900")
+		(property "Reference" "BT1"
+			(at 162.814 31.496 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS621FE,5.5mAh,3.3V"
+			(at 171.958 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
+			(at 162.814 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.814 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 161.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 161.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 161.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 161.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b31dc24-cb2f-454a-addd-1c3fa27db031")
+		)
+		(pin "1"
+			(uuid "ec803f64-ec5f-4380-abd1-eb7e87c2d669")
+		)
+		(instances
+			(project "stm32c8t6-mini"
+				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -12315,7 +12572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97ec77c6-ab35-4498-8d41-cefafca479ee")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 172.974 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12379,7 +12636,7 @@
 		(instances
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12641,7 +12898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a667f507-3742-4404-954d-3ffee58c9005")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 191.262 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12705,7 +12962,7 @@
 		(instances
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13694,7 +13951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e312158e-8c39-438f-8c88-f1abc0531e70")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 122.174 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13756,7 +14013,7 @@
 		(instances
 			(project "stm32c8t6-mini"
 				(path "/dd0baac2-12ea-4b58-abcb-703e6e71325e"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
